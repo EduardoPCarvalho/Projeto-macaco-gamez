@@ -52,7 +52,7 @@ header {
 }
 
 .logo img {
-    width: 100px;
+    width: 150px;
 }
 
 .titulo-container {
@@ -99,8 +99,8 @@ header {
   }
 
   .logo img {
-    width: 60px;
-    transform: scaleX(1.5);
+    width: 75px;
+    transform: scaleX(1.4);
   }
 }
 
