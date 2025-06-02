@@ -208,11 +208,11 @@ footer {
 
   .botao-whatsapp {
     position: fixed;
+    left: 250px;
+    bottom: 40px;
   }
 
-  .botao-whatsapp {
-    width: 50px;
-    right: 20px;
-    bottom: 10px;
+  .botao-whatsapp img {
+    width: 140px;
   }
 }
