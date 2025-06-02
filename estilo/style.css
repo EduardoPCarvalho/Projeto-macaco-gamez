@@ -81,71 +81,6 @@ header {
     text-shadow: 0 0 10px #0077ff;
 }
 
-@media (max-width: 600px) {
-    main {
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px 15px;
-    border-radius: 10px;
-    }
-
-  .topo-header {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-  }
-
-  .titulo {
-    font-size: 24px;
-    transform: scaleX(1.1);
-  }
-
-  .subtitulo {
-    font-size: 12px;
-  }
-
-  .logo img {
-    width: 75px;
-    transform: scaleX(1.2);
-  }
-
-  .barra-navegacao {
-    flex-direction: column ;
-    gap: 10px;
-    text-align: center;
-    margin-top: 8px;
-  }
-
-  .container-jogos {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .jogos {
-    width: 100%;
-    max-width: 280px;
-    padding: 15px;
-  }
-
-  .caption {
-    font-size: 16px;
-  }
-
-  p {
-    font-size: 16px;
-  }
-
-  .botao-whatsapp img {
-    width: 55px;
-  }
-
-  .botao-whatsapp {
-    right: 10px;
-    bottom: 10px;
-  }
-}
-
 nav {
     font-family: var(--font-navegacao);
     justify-content: center;
@@ -233,4 +168,51 @@ footer {
   text-align: center;
   padding: 20px;
   font-family: var(--fonte-paragrafo);
+}
+
+@media (max-width: 600px) {
+    main {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px; 
+    }
+
+  .topo-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .titulo {
+    font-size: 24px;
+    transform: scaleX(1.1);
+  }
+
+  .subtitulo {
+    font-size: 10px;
+  }
+
+  .logo img {
+    width: 75px;
+    transform: scaleX(1.4);
+  }
+
+  .barra-navegacao {
+    flex-direction: column ;
+    gap: 8px;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  .botao-whatsapp {
+    position: fixed;
+  }
+
+  .botao-whatsapp {
+    width: 50px;
+    right: 20px;
+    bottom: 10px;
+  }
 }
