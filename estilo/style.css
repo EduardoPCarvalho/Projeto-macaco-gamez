@@ -210,9 +210,14 @@ footer {
     position: fixed;
     right: 5px;
     bottom: 40px;
+    outline: none;
   }
 
   .botao-whatsapp img {
     width: 100px;
+  }
+
+  .voltar {
+    outline: none;
   }
 }
