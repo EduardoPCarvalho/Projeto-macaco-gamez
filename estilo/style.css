@@ -144,9 +144,8 @@ a.voltar {
 
 main {
     background-color: white;
-    margin: 40px;
-    padding: 15px;
-    padding-bottom: 10%;
+    margin: 90px;
+    padding: 30px;
     border-radius: 10px;
 }
 
@@ -178,6 +177,12 @@ main {
 .caption {
     margin-top: 10px;
     font-size: 22px;
+}
+
+.botao-whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
 }
 
 p {
